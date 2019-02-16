@@ -5,6 +5,8 @@
         <h2><?php the_title(); ?></h2>
         <?php the_content( ); ?>
 
+        <p>test</P>
+
 <?php endwhile;
 
     else : 
