@@ -5,7 +5,7 @@
         <h2><?php the_title(); ?></h2>
         <?php the_content( ); ?>
 
-        <p>test</P>
+        <p>test_2</P>
 
 <?php endwhile;
 
