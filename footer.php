@@ -14,13 +14,17 @@
                 </nav>
 
                 <!-- dynamically adds date and name -->
-                <p>
+                <p class="footer-info">
                     <?php bloginfo('name'); ?>
                         - &copy;
                     <?php echo date('Y'); ?>
                 </p>
 
-                <h5><strong><a href="https://krosswired.com">KrossWired Development</a></strong></h5>
+                <h5 class="footer-info">
+                    <strong>
+                        <a href="https://krosswired.com">KrossWired Development</a>
+                    </strong>
+                </h5>
             </footer>
 
         </div><!-- container  -->
