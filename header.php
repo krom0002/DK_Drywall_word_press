@@ -17,7 +17,15 @@
             <header class="site-header">
                 <h1><a href="<?php echo home_url(); ?>">
                     <?php bloginfo( 'name' ); ?></a></h1>
-                <h3><?php bloginfo( 'description' ); ?></h3>
+                <h3><?php bloginfo( 'description' ); ?>
+
+                    <?php if (is_page(7)) { ?>
+                    - Thank you for being a friend
+                    <?php }?>                
+                
+                </h3>
+
+                
 
                 <!-- dynamiclly add nav items -->
                 <nav class="site-nav">

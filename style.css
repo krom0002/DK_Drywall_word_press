@@ -69,6 +69,7 @@ article.post:last-of-type {
 
 }
 
+
 .site-header nav ul li a:link,
 .site-header nav ul li a:visited {
     display: block;
@@ -82,6 +83,7 @@ article.post:last-of-type {
     background-color: #ECECEC;
 }
 
+/* changes color of clicked current tab */
 .site-header nav ul li.current-menu-item a:link,
 .site-header nav ul li.current-menu-item a:visited {
 
@@ -95,4 +97,9 @@ article.post:last-of-type {
     padding-right: 10px;
     border-right: 1px dotted #BBB;
 
+}
+
+/* Page Layout */
+article.page h2 {
+    font-size: 300%;
 }
