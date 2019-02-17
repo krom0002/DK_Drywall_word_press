@@ -5,4 +5,10 @@
     }
 
     add_action( 'wp_enqueue_scripts', 'dk_drywall_resources');
+
+    // navigation menus
+    register_nav_menus( array(
+        'primary' => __( 'Primary Menu'),
+        'footer' => __( 'Footer Menu'),
+    ) );
 ?>

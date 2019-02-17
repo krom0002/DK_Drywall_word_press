@@ -1,6 +1,18 @@
 
             <footer class="site-footer">
 
+                <!-- dynamiclly add nav items -->
+                <nav class="site-nav">
+                    <!-- setsup menu items and name -->
+                    <?php
+                        $args = array(
+                            'theme_location' => 'footer'
+                        );
+                    ?>
+
+                    <?php wp_nav_menu( $args ); ?>
+                </nav>
+
                 <!-- dynamically adds date and name -->
                 <p>
                     <?php bloginfo('name'); ?>
