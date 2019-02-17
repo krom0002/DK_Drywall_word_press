@@ -74,7 +74,6 @@ article.post:last-of-type {
     margin-right: 5px;
 }
 
-
 .site-header nav ul li a:link,
 .site-header nav ul li a:visited {
     display: block;
@@ -123,6 +122,7 @@ article.page h2 {
 div.title-column {
     width: 30%;
     float: left;
+    padding-right: 5px;
 }
 
 div.text-column {
