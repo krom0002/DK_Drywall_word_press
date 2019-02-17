@@ -23,9 +23,7 @@
                     - Thank you for being a friend
                     <?php }?>                
                 
-                </h3>
-
-                
+                </h3>                
 
                 <!-- dynamiclly add nav items -->
                 <nav class="site-nav">
